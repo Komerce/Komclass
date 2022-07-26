@@ -1,0 +1,123 @@
+.header-container {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+  .header-nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 2vh 5vw 2vh 5vw;
+    align-items: center;
+    background-color: var(--background-color);
+    box-shadow: 0px 3px 14px -7px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 14px -7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 14px -7px rgba(0, 0, 0, 0.5);
+
+    .logo {
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      a {
+        font-size: 26px;
+        margin: 0;
+        font-weight: 900;
+        color: $baseColor;
+        cursor: pointer;
+      }
+      @media screen and(min-width: 320px) and (max-width: 480px) {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      list-style: none;
+      margin: 0px;
+      align-items: center;
+      .contact-me {
+        margin-left: 4em;
+        background-color: $baseColor;
+        border-color: $baseColor;
+        color: $baseWhite;
+        border-radius: 8px;
+        font-weight: 600;
+      }
+
+      li {
+        margin-right: 40px;
+
+        .active {
+          color: $baseBlack;
+          font-weight: 600;
+        }
+
+        a {
+          font-size: 16px;
+        }
+      }
+
+      .ant-dropdown-trigger {
+        align-self: center;
+      }
+    }
+
+    .sidenav {
+      display: none;
+    }
+
+    @media screen and(min-width: 320px) and (max-width: 768px) {
+      .menu {
+        display: none;
+      }
+      .sidenav {
+        display: flex;
+        color: $baseColor;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.ant-drawer {
+  .ant-drawer-content-wrapper {
+    .ant-drawer-content {
+      .ant-drawer-wrapper-body {
+        .ant-drawer-body {
+          li {
+            list-style: none;
+            padding: 10px;
+
+            .active {
+              color: $baseBlack;
+              font-weight: 700;
+            }
+
+            :hover {
+              color: $baseColor;
+            }
+          }
+
+          .contact-me {
+            border-radius: 8px;
+            border-color: $baseColor;
+            background-color: $baseColor;
+            color: $baseWhite;
+            width: 50%;
+            text-align: center;
+            padding: 3px;
+
+            :hover {
+              color: $baseWhite;
+            }
+          }
+        }
+      }
+    }
+  }
+}
