@@ -1,0 +1,15 @@
+{
+  "extends": "next",
+  "rules": {
+    "react/display-name": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
+    "import/no-anonymous-default-export": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "react-hooks/exhaustive-deps": "off",
+    "@next/next/no-document-import-in-page": "off"
+  }
+}
