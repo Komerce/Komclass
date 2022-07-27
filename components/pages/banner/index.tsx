@@ -1,4 +1,12 @@
-import { Col, Row } from 'antd';
+import Col from 'antd/lib/col';
+import Row from 'antd/lib/row';
+import { ListBanner } from 'constants/common';
+import { DataBanner } from 'constants/data';
+import Typography from 'antd/lib/typography'
+import SliderComponent from './SliderComponent';
+import MapsIcon from 'assets/MapsIcon';
+
+const { Title } = Typography;
 
 const Banner = () => {
   const settingSlider = {
@@ -8,7 +16,7 @@ const Banner = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -55,18 +63,21 @@ const Banner = () => {
 
   return (
     <section id="banner" className="banner">
-      <Row justify="center">
-        <Col xl={24} xxl={18}>
-          <img src="/images/placeholderbanner.png" alt="Landing Page" />
-          <div className="text">
-            <strong>SELAMAT DATANG</strong>
-            <br />
-            DILAYANAN PERPUSTAKAAN DIGITAL{' '}
-            <span>"Galo"</span>
-          </div>
-        </Col>
-      </Row>
-    </section>
+      <SliderComponent setting={settingSlider}>
+        {DataBanner.map((item: ListBanner) => (
+          <Row key={item.id}>
+            <img src={item.img} alt={item.alt} />
+            {/* <Row className="text">
+              <Col span={24}>
+                <Title level={3}>{item.title}</Title>
+                <Title level={5}>{item.location}</Title>
+                <Title level={5}>{item.time}</Title>
+              </Col>
+            </Row> */}
+          </Row>
+        ))}
+      </SliderComponent>
+    </section >
   );
 };
 

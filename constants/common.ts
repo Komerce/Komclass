@@ -13,3 +13,8 @@ export interface ListSponsor {
   img: string;
   alt: string;
 }
+export interface ListBanner extends ListSponsor {
+  title: string;
+  location: string;
+  time: string;
+}

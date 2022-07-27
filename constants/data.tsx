@@ -49,54 +49,80 @@ export const DataFooter = {
 export const DataSocmed = [
   {
     id: 1,
-    component : <InstagramIcon />,
+    component: <InstagramIcon />,
   },
   {
     id: 2,
-    component : <FacebookIcon />,
+    component: <FacebookIcon />,
   },
   {
     id: 3,
-    component : <LinkedInIcon />,
+    component: <LinkedInIcon />,
   },
   {
     id: 4,
-    component : <TelegramIcon />,
+    component: <TelegramIcon />,
   },
   {
     id: 5,
-    component : <YoutubeIcon />,
+    component: <YoutubeIcon />,
   }
 ]
 export const DataSponsor = [
   {
     id: 1,
     img: './images/cloudhost.jpg',
-    alt: 'id cloud host'
+    alt: 'Komerce Class'
   },
   {
     id: 2,
     img: './images/zahir.jpg',
-    alt: 'zahir'
+    alt: 'Komerce Class'
   },
   {
     id: 3,
     img: './images/kirimemail.jpg',
-    alt: 'kirim email'
+    alt: 'Komerce Class'
   },
   {
     id: 4,
     img: './images/jne.jpg',
-    alt: 'jne'
+    alt: 'Komerce Class'
   },
   {
     id: 5,
     img: './images/sicepat.jpg',
-    alt: 'sicepat'
+    alt: 'Komerce Class'
   },
   {
     id: 6,
     img: './images/ideexpress.jpg',
-    alt: 'ide express'
+    alt: 'Komerce Class'
+  },
+]
+export const DataBanner = [
+  {
+    id: 1,
+    img: './images/slide1.jpg',
+    alt: 'Komerce Class',
+    title: 'Tingkatkan Jualan Online Kamu Dengan Mengikuti Kelas Facebook Ads',
+    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    time: 'Sabtu - Minggu (20-21) Agustus 2022',
+  },
+  {
+    id: 2,
+    img: './images/slide2.jpg',
+    alt: 'Komerce Class',
+    title: 'Tingkatkan Jualan Online Kamu Dengan Mengikuti Kelas Facebook Ads',
+    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    time: 'Sabtu - Minggu (20-21) Agustus 2022',
+  },
+  {
+    id: 3,
+    img: './images/slide3.jpg',
+    alt: 'Komerce Class',
+    title: 'Tingkatkan Jualan Online Kamu Dengan Mengikuti Kelas Facebook Ads',
+    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    time: 'Sabtu - Minggu (20-21) Agustus 2022',
   },
 ]
