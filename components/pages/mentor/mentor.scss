@@ -1,0 +1,34 @@
+.mentor {
+    margin-top: 100px;
+    .title-mentor {
+        text-align: center;
+        h4 {
+            font-weight: 5 00;
+        }
+    }
+    .content-mentor {
+        h2 {
+            margin-top: 10%;
+            display: flex;
+        }
+        span {
+            color: $baseColor;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 5px;
+            margin-left: 5px;
+        }
+        p {
+            color: $baseGrey;
+            font-size: 14px;
+        }
+        h3 {
+            color: $baseColor;
+            margin-top: 30px;
+        }
+
+        .ant-list-item {
+            padding: 5px;
+        }
+    }
+}

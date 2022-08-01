@@ -15,6 +15,8 @@ export interface ListSponsor {
 }
 export interface ListBanner extends ListSponsor {
   title: string;
+  iconLocation: string;
+  iconClock: string;
   location: string;
   time: string;
 }
@@ -34,6 +36,7 @@ export interface DataHope {
 }
 export interface DataReview {
   id: number;
+  image: string;
   name: string;
   address: string;
   desc: string;

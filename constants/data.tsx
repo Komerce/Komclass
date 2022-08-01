@@ -3,6 +3,8 @@ import AnalyticIcon from 'assets/Advertise/AnalyticIcon';
 import BoxIcon from 'assets/Advertise/BoxIcon';
 import ConvertIcon from 'assets/Advertise/ConvertIcon';
 import SettingsIcon from 'assets/Advertise/SettingsIcon';
+import Clock from 'assets/banner/Clock';
+import Location from 'assets/banner/location';
 import FacebookIcon from 'assets/FacebookIcon';
 import DollarIcon from 'assets/Hope/DollarIcon';
 import MarketupIcon from 'assets/Hope/MarketupIcon';
@@ -119,6 +121,8 @@ export const DataBanner = [
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
+    iconLocation: './images/banner/location.png',
+    iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
     time: 'Sabtu - Minggu (20-21) Agustus 2022'
   },
@@ -128,6 +132,8 @@ export const DataBanner = [
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
+    iconLocation: './images/banner/location.png',
+    iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
     time: 'Sabtu - Minggu (20-21) Agustus 2022'
   },
@@ -137,6 +143,8 @@ export const DataBanner = [
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
+    iconLocation: './images/banner/location.png',
+    iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
     time: 'Sabtu - Minggu (20-21) Agustus 2022'
   }
@@ -351,73 +359,77 @@ export const DataSuitable = [
     id: 3,
     image: './images/suitable/adv_3.jpg',
     desc: 'Sudah beriklan tapi merasa pemenuhan kebutuhan iklan belum proper dan sesuai '
-  },
-]
+  }
+];
 export const CarouselReview = [
   {
     id: 1,
+    image: './images/review/zidane.png',
     name: 'Antar Zidane',
     address: 'Bumiayu, Brebes',
-    desc: 'Terdapat banyak sekali manfaat yang saya dapatkan setelah Belajar di kelas facebook ads Komclass dari Komerce, mulai dari prihal teori bisnis dan digital marketing, praktiknya dan bahkan filosofi. Acara ini sangat membuka pikiran saya dalam berbisnis. Saya pasti akan kembali kesana apabila terdapat pelatihan baru',
+    desc: 'Terdapat banyak sekali manfaat yang saya dapatkan setelah Belajar di kelas facebook ads Komclass dari Komerce, mulai dari prihal teori bisnis dan digital marketing, praktiknya dan bahkan filosofi. Acara ini sangat membuka pikiran saya dalam berbisnis. Saya pasti akan kembali kesana apabila terdapat pelatihan baru'
   },
   {
     id: 2,
+    image: './images/review/agung.png',
     name: 'Agung Toretto',
     address: 'Semarang',
-    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.',
+    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.'
   },
   {
     id: 3,
+    image: './images/review/zidane.png',
     name: 'Antar Zidane',
     address: 'Bumiayu, Brebes',
-    desc: 'Terdapat banyak sekali manfaat yang saya dapatkan setelah Belajar di kelas facebook ads Komclass dari Komerce, mulai dari prihal teori bisnis dan digital marketing, praktiknya dan bahkan filosofi. Acara ini sangat membuka pikiran saya dalam berbisnis. Saya pasti akan kembali kesana apabila terdapat pelatihan baru',
+    desc: 'Terdapat banyak sekali manfaat yang saya dapatkan setelah Belajar di kelas facebook ads Komclass dari Komerce, mulai dari prihal teori bisnis dan digital marketing, praktiknya dan bahkan filosofi. Acara ini sangat membuka pikiran saya dalam berbisnis. Saya pasti akan kembali kesana apabila terdapat pelatihan baru'
   },
   {
     id: 4,
+    image: './images/review/agung.png',
     name: 'Agung Toretto',
     address: 'Semarang',
-    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.',
+    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.'
   }
-]
+];
 export const DataUmkm = [
   {
     id: 1,
-    image: './images/umkm/Astra.svg',
+    image: './images/umkm/Astra.svg'
   },
   {
     id: 2,
-    image: './images/umkm/NatureHike.svg',
+    image: './images/umkm/NatureHike.svg'
   },
   {
     id: 3,
-    image: './images/umkm/Kboon.svg',
+    image: './images/umkm/Kboon.svg'
   },
   {
     id: 4,
-    image: './images/umkm/QuyAqiqah.svg',
+    image: './images/umkm/QuyAqiqah.svg'
   },
   {
     id: 5,
-    image: './images/umkm/Jms.svg',
+    image: './images/umkm/Jms.svg'
   },
   {
     id: 6,
-    image: './images/umkm/Fortuna.svg',
+    image: './images/umkm/Fortuna.svg'
   },
   {
     id: 7,
-    image: './images/umkm/LevelScarves.svg',
+    image: './images/umkm/LevelScarves.svg'
   },
   {
     id: 8,
-    image: './images/umkm/Otomotifku.svg',
+    image: './images/umkm/Otomotifku.svg'
   },
   {
     id: 9,
-    image: './images/umkm/Cozmeed.svg',
+    image: './images/umkm/Cozmeed.svg'
   },
   {
     id: 10,
-    image: './images/umkm/KfOutdoor.svg',
-  },
+    image: './images/umkm/KfOutdoor.svg'
+  }
 ];

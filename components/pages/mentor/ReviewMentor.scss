@@ -1,0 +1,18 @@
+.ReviewMentor {
+    .site-card-wrapper {
+        h2 {
+            color: $baseColor;
+            text-align: center;
+            margin: 20px 0;
+        }
+        h3 {
+            color: $baseColor;
+        }
+        .card {
+            margin: 10px;
+        }
+        .ant-card-bordered {
+            border: 1px solid #E2E2E2;
+        }
+    }
+}

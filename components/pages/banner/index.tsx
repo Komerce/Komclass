@@ -72,10 +72,20 @@ const Banner = () => {
             <Row className="text">
               <Col span={24}>
                 <Title level={1}>{item.title}</Title>
-                <Title level={5}>{item.location}</Title>
-                <Title level={5}>{item.time}</Title>
+
+                <Title level={5}>
+                  <img className="icon" src={item.iconLocation} alt="" />
+                  {item.location}
+                </Title>
+
+                <Title level={5}>
+                  <img className="icon" src={item.iconClock} alt="" />
+                  {item.time}
+                </Title>
                 <div>
-                  <Button type="primary" shape="round" icon={<WhatsAppIcon />}>Daftar Sekarang</Button>
+                  <Button type="primary" shape="round" icon={<WhatsAppIcon />}>
+                    Daftar Sekarang
+                  </Button>
                   <span>Info lebih lanjut</span>
                 </div>
               </Col>
@@ -83,7 +93,7 @@ const Banner = () => {
           </Row>
         ))}
       </SliderComponent>
-    </section >
+    </section>
   );
 };
 

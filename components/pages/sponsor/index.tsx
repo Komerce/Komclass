@@ -10,24 +10,29 @@ const Sponsor = () => {
     <section id="sponsor" className="sponsor">
       <Row className="title" justify="center">
         <Col xl={24} xxl={18}>
-          <Row justify="center">
+          <Row className='content' justify="center">
             <Title level={2}>
-              Kelas Intagram dan Facebook Ads ini diselanggarakan oleh{' '}
+              Kelas Intagram dan Facebook Ads ini diselanggarakan oleh
               <span>
                 <img src="./images/LogoKomerceRed.svg" alt="logo komerce" />
               </span>
             </Title>
-            <div>
-              Komerce berkomitmen membantu proses digitalisasi UMKM di Indonesia
-              Ribuan Pebisnis Online di Indonesia telah mempercayakan
-              pengembangan dan peningkatkan performa bisnisnya kepada Komerce
-            </div>
+            <Row justify="center">
+              <p>
+                Komerce berkomitmen membantu proses digitalisasi UMKM di
+                Indonesia
+              </p>
+              <p>
+                Ribuan Pebisnis Online di Indonesia telah mempercayakan
+                pengembangan dan peningkatkan performa bisnisnya kepada Komerce
+              </p>
+            </Row>
           </Row>
-          <Row>
+          <Row justify='center'>
             {DataUmkm.map((item: ItemSponsor) => (
               <Col span={4} className="sponsortable">
                 <Card key={item.id}>
-                  <img src={item.image} alt={item.title} />
+                  <img src={item.image} alt="" />
                 </Card>
               </Col>
             ))}
