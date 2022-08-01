@@ -108,15 +108,16 @@
     }
   }
   .text {
-    position: absolute;
+    position: sticky;
     bottom: 45%;
     left: 19%;
     justify-content: center;
     .ant-col {
       text-align: center;
-      width: 550px;
-      h3{
+      width: 350px;
+      h1{
         color: $baseWhite;
+        font-size: 48px;
       }
       h5{
         margin-top: 10px;

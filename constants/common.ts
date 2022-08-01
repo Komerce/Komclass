@@ -18,3 +18,27 @@ export interface ListBanner extends ListSponsor {
   location: string;
   time: string;
 }
+export interface DataReviewMentor {
+  id: number;
+  name: string;
+  desc: string;
+}
+export interface DataPrice {
+  id: number;
+  desc: string;
+}
+export interface DataHope {
+  id: number;
+  image: string;
+  desc: string;
+}
+export interface DataReview {
+  id: number;
+  name: string;
+  address: string;
+  desc: string;
+}
+export interface ItemSponsor {
+  id: number;
+  image: string;
+}

@@ -67,13 +67,13 @@ const Banner = () => {
         {DataBanner.map((item: ListBanner) => (
           <Row key={item.id}>
             <img src={item.img} alt={item.alt} />
-            {/* <Row className="text">
+            <Row className="text">
               <Col span={24}>
-                <Title level={3}>{item.title}</Title>
+                <Title level={1}>{item.title}</Title>
                 <Title level={5}>{item.location}</Title>
                 <Title level={5}>{item.time}</Title>
               </Col>
-            </Row> */}
+            </Row>
           </Row>
         ))}
       </SliderComponent>
