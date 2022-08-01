@@ -5,6 +5,8 @@ import { DataBanner } from 'constants/data';
 import Typography from 'antd/lib/typography'
 import SliderComponent from './SliderComponent';
 import MapsIcon from 'assets/MapsIcon';
+import WhatsAppIcon from 'assets/WhatsAppIcon';
+import { Button } from 'antd';
 
 const { Title } = Typography;
 
@@ -72,6 +74,10 @@ const Banner = () => {
                 <Title level={1}>{item.title}</Title>
                 <Title level={5}>{item.location}</Title>
                 <Title level={5}>{item.time}</Title>
+                <div>
+                  <Button type="primary" shape="round" icon={<WhatsAppIcon />}>Daftar Sekarang</Button>
+                  <span>Info lebih lanjut</span>
+                </div>
               </Col>
             </Row>
           </Row>
