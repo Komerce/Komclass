@@ -1,0 +1,34 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo 'Menjalankan pre-commit sebelum commit hehehe 😁'
+
+# sudo rm -rf node_modules && sudo rm -rf .next && yarn
+# add extend memory
+export NODE_OPTIONS="--max-old-space-size=8192"
+
+# Check Prettier standards
+# npm run format  ||
+# (
+#     echo 'Gagal cek standards Prettier yang telah di buat 👀';
+#     false;
+# )
+
+# Check ESLint Standards
+npm run lint ||
+(
+        echo 'Periksa kembali kode anda dengan rules eslint yang sudah di tetapkan 👀'
+        false; 
+)
+
+# If everything passes... Now we can commit
+echo 'Okee, coba kita commmit kode kamu hehehe 😁'
+
+npm run build ||
+(
+    echo 'Gagal build, Periksa kembali kode kamu, lalu lakukan commit lagi 😔';
+    false;
+)
+
+# If everything passes... Now we can commit
+echo 'Selamat, commit kamu berhasil ✅'
