@@ -9,6 +9,8 @@ function Application({ Component, pageProps }) {
     const root = document.documentElement;
 
     root?.style.setProperty('--base-color', COLORS.baseColor);
+    root?.style.setProperty('--base-grey', COLORS.baseGrey);
+    root?.style.setProperty('--base-red', COLORS.baseRed);
     root?.style.setProperty('--base-white', COLORS.baseWhite);
     root?.style.setProperty('--base-black', COLORS.baseBlack);
     root?.style.setProperty('--base-second-color', COLORS.baseSecondColor);

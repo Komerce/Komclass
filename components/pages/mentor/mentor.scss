@@ -1,0 +1,223 @@
+.mentor {
+padding: 10px;
+    .title-mentor {
+        margin-top: 100px;
+        text-align: center;
+
+        h4 {
+            font-weight: 5 00;
+        }
+    }
+
+    .content-mentor {
+        h2 {
+            margin-top: 10%;
+            display: flex;
+        }
+
+        span {
+            color: $baseColor;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 5px;
+            margin-left: 5px;
+        }
+
+        p {
+            color: $baseGrey;
+            font-size: 14px;
+        }
+
+        h3 {
+            color: $baseColor;
+            margin-top: 30px;
+        }
+
+        .ant-list-item {
+            padding: 5px;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 464px) {
+        .title {
+            .title-mentor {
+                margin-top: 20px;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .content-mentor {
+            .image-mentor {
+                text-align: -webkit-center;
+
+                img {
+                    width: 50%;
+                }
+            }
+
+            h2 {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .content-title {
+                font-size: 14px;
+            }
+        }
+        .slider-review {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 465px) and (max-width: 559px) {
+        .title {
+            .ant-col {
+                h2 {
+                    font-size: 28px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                }
+            }
+
+            .content-mentor {
+                .image-mentor {
+                    text-align: -webkit-center;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+
+                h2 {
+                    margin-top: 10px;
+                    font-size: 24px;
+                }
+
+                span {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                .content-title {
+                    font-size: 14px;
+                }
+            }
+            .slider-review {
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (min-width: 560px) and (max-width: 779px) {
+        .title {
+            .ant-col {
+                h2 {
+                    font-size: 28px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                }
+            }
+
+            .content-mentor {
+                .image-mentor {
+                    text-align: -webkit-center;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                h2 {
+                    margin-top: 10px;
+                    font-size: 24px;
+                }
+
+                span {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                .content-title {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 780px) and (max-width: 1200px) {
+        .title {
+            .ant-col {
+                h2 {
+                    font-size: 28px;
+                }
+
+                h4 {
+                    font-size: 18px;
+                }
+
+                img {
+                    width: 99%;
+                }
+            }
+
+            .content-mentor {
+                h2 {
+                    font-size: 24px;
+                }
+
+                span {
+                    font-size: 22px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+
+                .content-title {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

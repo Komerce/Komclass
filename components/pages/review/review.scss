@@ -1,0 +1,158 @@
+.review {
+
+    .title {
+        text-align: center;
+        margin-top: 100px;
+        display: block;
+
+        h2 {
+            font-size: 32px;
+        }
+
+        .slick-slider {
+            text-align: -webkit-center;
+        }
+
+        .slider-review {
+            margin-top: 60px;
+            padding: 30px 0;
+            background-image: url(../../../public/images/review/petik.png);
+            background-repeat: no-repeat;
+            background-position-x: 7rem;
+            background-position-y: 15px;
+        }
+
+        .reviewcarousel {
+            display: block;
+            position: relative;
+            padding: 20px;
+            border: 1px solid #C2C2C2;
+            text-align: -webkit-center;
+            border-radius: 16px;
+
+            .ant-row {
+                text-align: -webkit-center;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .desc {
+                font-size: 18px;
+                font-weight: 400;
+                text-align: left;
+            }
+
+            img {
+                margin-top: -70px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 464px) {
+        .title {
+            margin-top: 20px;
+
+            .slider-review {
+                background-image: none;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .reviewcarousel {
+                h4 {
+                    font-size: 16px;
+                }
+
+                .desc {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px !important;
+        }
+
+        .slick-list {
+            height: 450px !important;
+        }
+    }
+
+    @media screen and (min-width: 465px) and (max-width: 559px) {
+        .title {
+            margin-top: 20px;
+
+            .slider-review {
+                background-image: none;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .reviewcarousel {
+                h4 {
+                    font-size: 16px;
+                }
+
+                .desc {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px !important;
+        }
+
+        .slick-list {
+            height: 450px !important;
+        }
+    }
+
+    @media screen and (min-width: 560px) and (max-width: 779px) {
+        .title {
+            margin-top: 20px;
+
+            .slider-review {
+                background-image: none;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .reviewcarousel {
+                h4 {
+                    font-size: 16px;
+                }
+
+                .desc {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px !important;
+        }
+
+        .slick-list {
+            height: 450px !important;
+        }
+    }
+
+    @media screen and (min-width: 780px) and (max-width: 1200px) {}
+}

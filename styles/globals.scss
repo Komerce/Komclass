@@ -2,6 +2,8 @@ $baseColor: var(--base-color);
 $baseWhite: var(--base-white);
 $baseBlack: var(--base-black);
 $baseSecondColor: var(--base-second-color);
+$baseGrey: var(--base-grey);
+$baseRed: var(--base-red);
 
 html,
 :root {
@@ -9,7 +11,7 @@ html,
   --background-color: #ffffff;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --font-color: #eeeeee;
   // #1a1a1a
   --background-color: #242424;
@@ -20,15 +22,19 @@ body {
   color: var(--font-color);
   padding: 0;
   margin: 0;
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  font-family: 'Rubik', sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  font-family: "Rubik", sans-serif;
 }
 
-.ant-collapse-icon-position-right
-  > .ant-collapse-item
-  > .ant-collapse-header
-  .ant-collapse-arrow {
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
   color: $baseColor;
+}
+
+span,
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: $baseBlack;
 }
 
 a {
@@ -117,7 +123,7 @@ a {
   width: 10px;
   height: 10px;
 
-  content: '•';
+  content: "•";
   text-align: center;
 
   opacity: 0.25;
@@ -177,4 +183,14 @@ a {
   color: var(--font-color);
   font-weight: 600;
   font-size: 15px;
+}
+
+.ant-list-split .ant-list-item {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1200px) {
+  .advertise {
+    margin-top: 0px;
+  }
 }

@@ -52,7 +52,7 @@ const Footers = () => {
           <Title level={5}>Find Out Our Latest News</Title>
           <Row>
             {DataSocmed.map((item: ListIcon) => (
-              <div key={item.id}>{item.component}</div>
+              <a href={item.link} target="_blank" rel="noreferrer" key={item.id}>{item.component}</a>
             ))}
           </Row>
           <Title level={5}>Find Out Our Latest News</Title>

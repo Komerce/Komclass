@@ -1,17 +1,11 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
+import { Button, Dropdown, Menu } from 'antd';
 import Drawer from 'antd/lib/drawer';
-import Button from 'antd/lib/button';
 import { MenuFoldOutlined } from '@ant-design/icons';
-import { Link as Scroll } from 'react-scroll';
 import Link from 'next/link';
 import LogoIcon from 'assets/LogoIcon';
-
-interface DataMenu {
-  label: string;
-  path: string;
-  data: any;
-}
 
 const Header = () => {
   const [state, setState] = useState(false);
@@ -24,50 +18,39 @@ const Header = () => {
     setState(false);
   };
 
-  const menu = [
-    {
-      label: 'Mengapa Komclass',
-      path: 'banner',
-    },
-    {
-      label: 'Kelas',
-      path: 'class',
-    },
-    {
-      label: 'Komerce',
-      path: 'book',
-    },
-    {
-      label: 'Blog',
-      path: 'book',
-    },
-  ];
-
-  const NavMenu = () => (
-    <>
-      {menu.map((e: DataMenu, i: number) => (
-        <span key={i}>
-          <li>
-            <Scroll
-              activeClass="active"
-              to={e.path}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+  const menu = (
+    <Menu
+      items={[
+        {
+          key: '1',
+          label: (
+            <a className='dropdown'
             >
-              <a className="active">
-                {e.label}
-              </a>
-            </Scroll>
-          </li>
-        </span>
-      ))
-      }
-      <Button size='large' className='contact-me'>Hubungi Kami</Button>
-    </>
+              Tiktok Ads
+            </a>
+          )
+        },
+        {
+          key: '2',
+          label: (
+            <a 
+            >
+              IG & FB Ads
+            </a>
+          )
+        },
+        {
+          key: '3',
+          label: (
+            <a
+            >
+              Google Ads
+            </a>
+          )
+        }
+      ]}
+    />
   );
-
 
   return (
     <div className="header-container">
@@ -78,8 +61,46 @@ const Header = () => {
           </Link>
         </ul>
         <ul className="menu">
-          <NavMenu />
+          <li>
+            <a href="#review" className="active">
+              Mengapa Komclass
+            </a>
+          </li>
+          <li>
+              <Dropdown className="active" overlay={menu} placement="bottomLeft">
+                <a>Kelas</a>
+              </Dropdown>
+          </li>
+          <li>
+            <a
+              href="https://komerce.id/"
+              target="_blank"
+              rel="noreferrer"
+              className="active"
+            >
+              Komerce
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://komerce.id/blog"
+              target="_blank"
+              rel="noreferrer"
+              className="active"
+            >
+              Blog
+            </a>
+          </li>
         </ul>
+        <Button size="large" className="contact-me">
+          <a
+            href="https://wa.me/6282331292258"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hubungi Kami
+          </a>
+        </Button>
         <MenuFoldOutlined className="sidenav" onClick={showDrawer} />
         <Drawer
           placement="left"
@@ -87,7 +108,7 @@ const Header = () => {
           onClose={onClose}
           visible={state}
         >
-          <NavMenu />
+          {/* <NavMenu /> */}
         </Drawer>
       </nav>
     </div>
