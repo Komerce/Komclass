@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Col from 'antd/lib/col';
 import Row from 'antd/lib/row';
 import { ListBanner } from 'constants/common';
