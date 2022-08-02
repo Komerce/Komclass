@@ -1,5 +1,15 @@
 import LayoutPage from 'components/layout';
-import { Advertise, Banner, Hope, Learn, Mentor, Price, Review, Sponsor, Suitable } from 'components/pages';
+import {
+  Advertise,
+  Banner,
+  Hope,
+  Learn,
+  Mentor,
+  Price,
+  Review,
+  Sponsor,
+  Suitable
+} from 'components/pages';
 import SEO from './seo';
 
 const Home = () => (

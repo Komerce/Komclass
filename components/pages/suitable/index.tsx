@@ -9,16 +9,16 @@ const Suitable = () => {
     <section id="suitable" className="suitable">
       <Row className="title" justify="center">
         <Col xl={24} xxl={24}>
-          <Row justify='center'>
+          <Row justify="center">
             <Title level={2}>
               Siapa saja yang cocok mengikuti kelas kali ini ?
             </Title>
           </Row>
-          <Row justify='center'>
+          <Row justify="center">
             {DataSuitable.map((item: DataHope) => (
               <Col key={item.id} xl={7} lg={7} md={7} sm={24} xs={24}>
                 <img src={item.image} alt={item.desc} />
-                <p className='desc'>{item.desc}</p>
+                <p className="desc">{item.desc}</p>
               </Col>
             ))}
           </Row>

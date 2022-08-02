@@ -36,3 +36,4 @@ yarn.lock
 
 # pm2 config
 app.config.json
+tsconfig.tsbuildinfo

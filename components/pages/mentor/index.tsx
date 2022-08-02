@@ -20,14 +20,14 @@ const Mentor = () => {
               </Title>
             </Col>
           </Row>
-          <Row gutter={[32, 32]} justify='center' className="content-mentor">
-            <Col className='image-mentor' xl={10} md={13} sm={22} xs={24}>
+          <Row gutter={[32, 32]} justify="center" className="content-mentor">
+            <Col className="image-mentor" xl={10} md={13} sm={22} xs={24}>
               <img src="./images/mentor/Profile-Fahmi-Audtiya.png" alt="" />
             </Col>
             <Col xl={12} md={10} sm={22} xs={24}>
               <Title level={2}>
-                Fahmi Auditya 
-                  <span> Digital Marketing Expert</span>
+                Fahmi Auditya
+                <span> Digital Marketing Expert</span>
               </Title>
               <p>
                 Fahmi Auditya adalah seorang Digital Marketing Expert yang sudah
@@ -46,7 +46,7 @@ const Mentor = () => {
                   <List.Item>
                     <List.Item.Meta
                       avatar={<img src={item.img} alt={item.desc} />}
-                      title={<div className='content-title'>{item.title}</div>}
+                      title={<div className="content-title">{item.title}</div>}
                       description={<div>{item.desc}</div>}
                     />
                   </List.Item>
@@ -58,7 +58,11 @@ const Mentor = () => {
                 dataSource={DataMentorAchievement}
                 renderItem={item => (
                   <List.Item>
-                    <List.Item.Meta description={<div className='list-achievement'>{item.desc}</div>} />
+                    <List.Item.Meta
+                      description={
+                        <div className="list-achievement">{item.desc}</div>
+                      }
+                    />
                   </List.Item>
                 )}
               />

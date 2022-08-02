@@ -23,30 +23,15 @@ const Header = () => {
       items={[
         {
           key: '1',
-          label: (
-            <a className='dropdown'
-            >
-              Tiktok Ads
-            </a>
-          )
+          label: <a className="dropdown">Tiktok Ads</a>
         },
         {
           key: '2',
-          label: (
-            <a 
-            >
-              IG & FB Ads
-            </a>
-          )
+          label: <a>IG & FB Ads</a>
         },
         {
           key: '3',
-          label: (
-            <a
-            >
-              Google Ads
-            </a>
-          )
+          label: <a>Google Ads</a>
         }
       ]}
     />
@@ -67,9 +52,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-              <Dropdown className="active" overlay={menu} placement="bottomLeft">
-                <a>Kelas</a>
-              </Dropdown>
+            <Dropdown className="active" overlay={menu} placement="bottomLeft">
+              <a>Kelas</a>
+            </Dropdown>
           </li>
           <li>
             <a

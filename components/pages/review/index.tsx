@@ -70,8 +70,8 @@ const Review = () => {
           </Row>
           <SliderReview setting={settingSlider}>
             {CarouselReview.map((item: DataReview) => (
-              <Row className='slider-review' justify="center">
-                <Col className='reviewcarousel' key={item.id} span={20}>
+              <Row className="slider-review" justify="center">
+                <Col className="reviewcarousel" key={item.id} span={20}>
                   <img src={item.image} alt="" />
                   <Title className="title" level={4}>
                     {item.name} - {item.address}

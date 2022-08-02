@@ -5,7 +5,7 @@ const SEO = () => {
   return (
     <Head>
       <title>Komerce Class</title>
-      <link rel="icon" href='./images/favicon.svg' />
+      <link rel="icon" href="./images/favicon.svg" />
       <meta name="Komere Class" content="Komere Class" />
       <meta name="og:title" content="Komere Class" />
       <meta name="description" content="Komerce Class" />

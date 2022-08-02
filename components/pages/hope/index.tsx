@@ -16,7 +16,7 @@ const Hope = () => {
               </Title>
             </Col>
           </Row>
-          <Row justify='center'>
+          <Row justify="center">
             <Col xl={8} lg={10} md={10} sm={12} xs={24}>
               <List
                 itemLayout="horizontal"
@@ -25,7 +25,7 @@ const Hope = () => {
                   <List.Item className="desc">
                     <List.Item.Meta
                       avatar={item.image}
-                      title={<div className='content'>{item.desc}</div>}
+                      title={<div className="content">{item.desc}</div>}
                     />
                   </List.Item>
                 )}
@@ -39,7 +39,7 @@ const Hope = () => {
                   <List.Item className="desc">
                     <List.Item.Meta
                       avatar={item.image}
-                      title={<div className='content'>{item.desc}</div>}
+                      title={<div className="content">{item.desc}</div>}
                     />
                   </List.Item>
                 )}

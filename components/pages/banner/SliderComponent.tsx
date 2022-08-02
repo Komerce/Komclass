@@ -15,9 +15,7 @@ const SliderComponent = ({ children, setting }) => {
       </div>
     )
   };
-  return (
-    <Slider {...settings}>{children}</Slider>
-  );
+  return <Slider {...settings}>{children}</Slider>;
 };
 
 export default SliderComponent;

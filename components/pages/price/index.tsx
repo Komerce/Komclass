@@ -22,8 +22,12 @@ const Price = () => {
                 Hubungi kami untuk melakukan pendaftaran
               </div>
               <button className="button">
-                <a href="https://wa.me/6282331292258" target="_blank" rel="noreferrer">
-                  <WhatsAppOutlined style={{fontSize: '18px'}} />
+                <a
+                  href="https://wa.me/6282331292258"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <WhatsAppOutlined style={{ fontSize: '18px' }} />
                   <span>Daftar Sekarang</span>
                 </a>
               </button>
