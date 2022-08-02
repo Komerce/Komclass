@@ -7,9 +7,9 @@ const Hope = () => {
   return (
     <section id="hope" className="hope">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col xl={24} xxl={24}>
           <Row justify="center">
-            <Col span={16}>
+            <Col xl={16} lg={16} md={20} sm={24} xs={24}>
               <Title level={2}>
                 Harapan mengikuti kelas periklanan Instagram dan Facebook dari
                 Komclass

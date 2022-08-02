@@ -8,7 +8,7 @@ const Suitable = () => {
   return (
     <section id="suitable" className="suitable">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col xl={24} xxl={24}>
           <Row justify='center'>
             <Title level={2}>
               Siapa saja yang cocok mengikuti kelas kali ini ?

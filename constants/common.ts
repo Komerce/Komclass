@@ -7,6 +7,7 @@ export interface MenuList {
 export interface ListIcon {
   id: number;
   component: ReactElement;
+  link: string;
 }
 export interface ListSponsor {
   id: number;

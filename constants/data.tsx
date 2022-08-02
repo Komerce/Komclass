@@ -63,23 +63,28 @@ export const DataFooter = {
 export const DataSocmed = [
   {
     id: 1,
-    component: <InstagramIcon />
+    component: <InstagramIcon />,
+    link: 'https://www.instagram.com/komerceid/'
   },
   {
     id: 2,
-    component: <FacebookIcon />
+    component: <FacebookIcon />,
+    link: 'https://www.facebook.com/komerce.official'
   },
   {
     id: 3,
-    component: <LinkedInIcon />
+    component: <LinkedInIcon />,
+    link: 'https://www.linkedin.com/company/komerceid/'
   },
   {
     id: 4,
-    component: <TelegramIcon />
+    component: <TelegramIcon />,
+    link: ''
   },
   {
     id: 5,
-    component: <YoutubeIcon />
+    component: <YoutubeIcon />,
+    link: 'https://www.youtube.com/c/KampungMarketer'
   }
 ];
 export const DataSponsor = [
@@ -374,7 +379,7 @@ export const CarouselReview = [
     image: './images/review/agung.png',
     name: 'Agung Toretto',
     address: 'Semarang',
-    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.'
+    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi'
   },
   {
     id: 3,
@@ -388,7 +393,7 @@ export const CarouselReview = [
     image: './images/review/agung.png',
     name: 'Agung Toretto',
     address: 'Semarang',
-    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi.'
+    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi'
   }
 ];
 export const DataUmkm = [

@@ -9,7 +9,7 @@ const Sponsor = () => {
   return (
     <section id="sponsor" className="sponsor">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col span={24}>
           <Row className='content' justify="center">
             <Title level={2}>
               Kelas Intagram dan Facebook Ads ini diselanggarakan oleh
@@ -30,7 +30,7 @@ const Sponsor = () => {
           </Row>
           <Row justify='center'>
             {DataUmkm.map((item: ItemSponsor) => (
-              <Col span={4} className="sponsortable">
+              <Col className="sponsortable" xxl={4} xl={4} lg={4} md={4} sm={8} xs={10}>
                 <Card key={item.id}>
                   <img src={item.image} alt="" />
                 </Card>

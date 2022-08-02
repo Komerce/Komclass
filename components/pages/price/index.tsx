@@ -7,7 +7,7 @@ const Price = () => {
   return (
     <section id="price" className="price">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col span={24}>
           <Row justify="center">
             <Title level={2}>Tunggu apa lagi? Dapatkan Harga Spesial</Title>
           </Row>
@@ -22,7 +22,7 @@ const Price = () => {
                 Hubungi kami untuk melakukan pendaftaran
               </div>
               <button className="button">
-                <a href="">
+                <a href="https://wa.me/6282331292258" target="_blank" rel="noreferrer">
                   <WhatsAppOutlined style={{fontSize: '18px'}} />
                   <span>Daftar Sekarang</span>
                 </a>

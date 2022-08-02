@@ -1,26 +1,24 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
 import { Col, Row, Typography } from 'antd';
-import SliderComponent from '../banner/SliderComponent';
+import SliderReview from './SliderReview';
 import { CarouselReview } from 'constants/data';
 import { DataReview } from 'constants/common';
 
 const { Title } = Typography;
 const Review = () => {
   const settingSlider = {
-    dots: true,
-    arrows: false,
+    arrow: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 600,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -28,7 +26,7 @@ const Review = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -36,7 +34,7 @@ const Review = () => {
       {
         breakpoint: 750,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -44,7 +42,7 @@ const Review = () => {
       {
         breakpoint: 720,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -61,7 +59,7 @@ const Review = () => {
   return (
     <section id="review" className="review">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col span={24}>
           <Row justify="center">
             <Title level={2}>Apa Kata Mereka?</Title>
           </Row>
@@ -70,19 +68,19 @@ const Review = () => {
               Para Alumni Kelas Yang Telah diselenggarakan Oleh Komclass
             </Title>
           </Row>
-          <SliderComponent setting={settingSlider}>
+          <SliderReview setting={settingSlider}>
             {CarouselReview.map((item: DataReview) => (
-              <Row justify="center">
-                <Col className='reviewcarousel' key={item.id} span={10}>
+              <Row className='slider-review' justify="center">
+                <Col className='reviewcarousel' key={item.id} span={20}>
                   <img src={item.image} alt="" />
-                  <div>
-                    {item.name} - <span>{item.address}</span>
-                  </div>
-                  <div>{item.desc}</div>
+                  <Title className="title" level={4}>
+                    {item.name} - {item.address}
+                  </Title>
+                  <div className="desc">"{item.desc}"</div>
                 </Col>
               </Row>
             ))}
-          </SliderComponent>
+          </SliderReview>
         </Col>
       </Row>
     </section>

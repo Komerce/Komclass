@@ -69,7 +69,7 @@ const ReviewMentor = () => {
               <Card className='card' key={item.id} bordered={true}>
                 <Title level={3}>{item.name}</Title>
                 <img src="./images/mentor/Star-group.svg" alt="star group" />
-                <div>{item.desc}</div>
+                <div className="desc">{item.desc}</div>
               </Card>
             </Col>
           ))}

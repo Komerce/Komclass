@@ -10,9 +10,49 @@
         }
         .card {
             margin: 10px;
+            height: 220px;
+            border-radius: 16px;
         }
         .ant-card-bordered {
             border: 1px solid #E2E2E2;
+        }
+    }
+    @media screen and (min-width: 320px) and (max-width: 464px) {
+        .card {
+            img {
+                width: 50%;
+                height: 20%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 465px) and (max-width: 559px) {
+        .card {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 560px) and (max-width: 779px) {
+        .card {
+            .desc {
+                font-size: 12px;
+            }
+            img {
+                width: 60%;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 780px) and (max-width: 1200px) {
+        .card {
+            img {
+                width: 80%;
+            }
         }
     }
 }

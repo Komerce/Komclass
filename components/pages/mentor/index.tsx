@@ -8,9 +8,9 @@ const Mentor = () => {
   return (
     <section id="mentor" className="mentor">
       <Row className="title" justify="center">
-        <Col xl={24} xxl={18}>
+        <Col xl={24} xxl={24}>
           <Row className="title-mentor" justify="center">
-            <Col span={18}>
+            <Col xl={17} lg={17} md={17} sm={24} xs={24}>
               <Title level={2}>
                 Semua permasalahan performa iklanmu akan terjawab di kelas
                 Instagram dan Facebook Ads dari Komclass!
@@ -20,11 +20,11 @@ const Mentor = () => {
               </Title>
             </Col>
           </Row>
-          <Row justify='center' className="content-mentor">
-            <Col xl={10} md={10} sm={24} xs={24}>
+          <Row gutter={[32, 32]} justify='center' className="content-mentor">
+            <Col className='image-mentor' xl={10} md={13} sm={22} xs={24}>
               <img src="./images/mentor/Profile-Fahmi-Audtiya.png" alt="" />
             </Col>
-            <Col xl={12} md={10} sm={24} xs={24}>
+            <Col xl={12} md={10} sm={22} xs={24}>
               <Title level={2}>
                 Fahmi Auditya 
                   <span> Digital Marketing Expert</span>
@@ -46,7 +46,7 @@ const Mentor = () => {
                   <List.Item>
                     <List.Item.Meta
                       avatar={<img src={item.img} alt={item.name} />}
-                      title={<div>{item.title}</div>}
+                      title={<div className='content-title'>{item.title}</div>}
                       description={<div>{item.desc}</div>}
                     />
                   </List.Item>
@@ -64,7 +64,7 @@ const Mentor = () => {
               />
             </Col>
           </Row>
-          <Row>
+          <Row className="slider-review">
             <ReviewMentor />
           </Row>
         </Col>
