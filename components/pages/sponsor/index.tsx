@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import React from 'react';
 import { Card, Col, Row, Typography } from 'antd';
 import { DataUmkm } from 'constants/data';
@@ -30,8 +29,8 @@ const Sponsor = () => {
           </Row>
           <Row justify='center'>
             {DataUmkm.map((item: ItemSponsor) => (
-              <Col className="sponsortable" xxl={4} xl={4} lg={4} md={4} sm={8} xs={10}>
-                <Card key={item.id}>
+              <Col className="sponsortable" xxl={4} xl={4} lg={4} md={4} sm={8} xs={10} key={item.id}>
+                <Card>
                   <img src={item.image} alt="" />
                 </Card>
               </Col>
