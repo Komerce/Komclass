@@ -123,7 +123,7 @@ export const DataSponsor = [
 export const DataBanner = [
   {
     id: 1,
-    img: './images/slide1.jpg',
+    img: './images/slide1.png',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
@@ -134,7 +134,7 @@ export const DataBanner = [
   },
   {
     id: 2,
-    img: './images/slide2.jpg',
+    img: './images/slide2.png',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
@@ -145,7 +145,7 @@ export const DataBanner = [
   },
   {
     id: 3,
-    img: './images/slide3.jpg',
+    img: './images/slide3.png',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
@@ -428,7 +428,7 @@ export const DataUmkm = [
   },
   {
     id: 8,
-    image: './images/umkm/Otomotifku.svg'
+    image: './images/umkm/OtomotifKu.svg'
   },
   {
     id: 9,
