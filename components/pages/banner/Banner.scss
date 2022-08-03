@@ -115,7 +115,7 @@
 
   .text {
     position: sticky;
-    bottom:35%;
+    bottom: 35%;
     left: 19%;
     justify-content: center;
 
@@ -145,11 +145,15 @@
       }
 
       .button {
-        padding: 10px 20px;
-        margin: 20px;
-        background-color: $baseColor;
-        border-radius: 10px;
-        border-color: $baseColor;
+        display: contents;
+        a {
+          padding: 10px 20px;
+          margin: 20px;
+          background-color: $baseColor;
+          border-radius: 10px;
+          border-color: $baseColor;
+        }
+
         span {
           font-weight: 600;
           font-size: 14px;
@@ -189,38 +193,54 @@
 
   @media screen and (min-width: 320px) and (max-width: 464px) {
     .slick-list {
-      height: 200px !important;
+      height: 300px !important;
     }
+
     .slick-dots {
       display: none !important;
     }
+
+    img {
+      width: 200%;
+    }
+
     h1 {
       font-size: 14px !important;
     }
+
     h5 {
       margin-top: 1px;
       font-size: 10px;
     }
+
     .icon {
       width: 10px !important;
       height: 10px !important;
       margin-right: 3px;
     }
+
     .text {
-      bottom: 5%;
+      bottom: 25%;
+
       .ant-col {
         .button {
-          padding: 2px 2px;
-          margin: 0px 5px;
+          padding: 0px;
+
+          a {
+            padding: 5px 10px;
+          }
+
           svg {
             font-size: 10px;
           }
+
           span {
             font-size: 10px;
           }
         }
+
         .info {
-          padding: 5px 5px;
+          padding: 5px 10px;
           font-size: 10px;
         }
       }
@@ -231,28 +251,53 @@
     .slick-list {
       height: 300px !important;
     }
+
     .slick-dots {
       display: none !important;
     }
+
+    img {
+      width: 200%;
+    }
+
     h1 {
-      font-size: 20px !important;
+      font-size: 14px !important;
     }
+
     h5 {
-      margin-top: 5px;
-      font-size: 14px;
+      margin-top: 1px;
+      font-size: 10px;
     }
+
+    .icon {
+      width: 10px !important;
+      height: 10px !important;
+      margin-right: 3px;
+    }
+
     .text {
-      bottom: 15%;
+      bottom: 25%;
+
       .ant-col {
         .button {
-          padding: 5px 10px;
-          margin: 0px 10px;
+          padding: 0px;
+
+          a {
+            padding: 5px 10px;
+          }
+
+          svg {
+            font-size: 10px;
+          }
+
           span {
-            font-size: 12px;
+            font-size: 10px;
           }
         }
+
         .info {
           padding: 5px 10px;
+          font-size: 10px;
         }
       }
     }
@@ -263,14 +308,18 @@
       height: 340px;
       object-fit: fill;
     }
+
     .slick-list {
       height: 400px !important;
     }
+
     h1 {
       font-size: 20px !important;
     }
+
     .text {
       bottom: 35%;
+
       .ant-col {
         .button {
           margin: 0px 10px;
@@ -283,9 +332,11 @@
     .slick-list {
       height: 600px !important;
     }
+
     h1 {
       font-size: 32px !important;
     }
+
     .text {
       bottom: 20%;
     }

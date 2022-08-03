@@ -134,25 +134,25 @@ export const DataBanner = [
   },
   {
     id: 2,
-    img: './images/slide2.png',
+    img: './images/slide2.svg',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
     id: 3,
-    img: './images/slide3.png',
+    img: './images/slide3.svg',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   }
 ];
 export const DataAdvertise = [
