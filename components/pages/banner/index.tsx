@@ -80,11 +80,11 @@ const Banner = () => {
                   <img className="icon" src={item.iconClock} alt="" />
                   Waktu :{item.time}
                 </Title>
-                <div>
+                <div className="button-wrapper">
                   <button className="button">
                     <a href="https://wa.me/6282331292258" target="_blank" rel="noreferrer">
                       <WhatsAppOutlined style={{ fontSize: '18px' }} />
-                      <span>Daftar Sekarang</span>
+                      <span style={{marginLeft: '5px'}}>Daftar Sekarang</span>
                     </a>
                   </button>
                   <a href="#advertise">

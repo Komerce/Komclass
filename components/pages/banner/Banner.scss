@@ -115,13 +115,17 @@
 
   .text {
     position: sticky;
-    bottom: 35%;
+    bottom: 30%;
     left: 19%;
     justify-content: center;
 
     .ant-col {
       text-align: center;
       width: 350px;
+
+      .button-wrapper {
+        margin-top: 80px;
+      }
 
       h1 {
         color: $baseWhite;
@@ -146,6 +150,7 @@
 
       .button {
         display: contents;
+
         a {
           padding: 10px 20px;
           margin: 20px;
@@ -223,11 +228,15 @@
       bottom: 25%;
 
       .ant-col {
+        .button-wrapper {
+          margin-top: 20px;
+        }
+
         .button {
           padding: 0px;
 
           a {
-            padding: 5px 10px;
+            padding: 3px 8px 7px 3px;
           }
 
           svg {
@@ -279,6 +288,10 @@
       bottom: 25%;
 
       .ant-col {
+        .button-wrapper {
+          margin-top: 20px;
+        }
+
         .button {
           padding: 0px;
 
@@ -321,6 +334,10 @@
       bottom: 35%;
 
       .ant-col {
+        .button-wrapper {
+          margin-top: 20px;
+        }
+
         .button {
           margin: 0px 10px;
         }
@@ -339,6 +356,12 @@
 
     .text {
       bottom: 20%;
+
+      .ant-col {
+        .button-wrapper {
+          margin-top: 60px;
+        }
+      }
     }
   }
 }
