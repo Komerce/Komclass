@@ -3,8 +3,6 @@ import AnalyticIcon from 'assets/Advertise/AnalyticIcon';
 import BoxIcon from 'assets/Advertise/BoxIcon';
 import ConvertIcon from 'assets/Advertise/ConvertIcon';
 import SettingsIcon from 'assets/Advertise/SettingsIcon';
-import Clock from 'assets/banner/Clock';
-import Location from 'assets/banner/location';
 import FacebookIcon from 'assets/FacebookIcon';
 import DollarIcon from 'assets/Hope/DollarIcon';
 import MarketupIcon from 'assets/Hope/MarketupIcon';
@@ -14,7 +12,6 @@ import SocialIcon from 'assets/Hope/SocialIcon';
 import StrategyIcon from 'assets/Hope/StrategyIcon';
 import InstagramIcon from 'assets/InstagramIcon';
 import LinkedInIcon from 'assets/LinkedInIcon';
-import AstraIcon from 'assets/Review/AstraIcon.svg';
 import TelegramIcon from 'assets/Telegram';
 import YoutubeIcon from 'assets/YoutubeIcon';
 
