@@ -29,19 +29,23 @@ export const DataFooter = {
   menu: [
     {
       id: 1,
-      name: 'Mengapa Komclass'
+      name: 'Mengapa Komclass',
+      link: '#review'
     },
     {
       id: 2,
-      name: 'Kelas'
+      name: 'Kelas',
+      link: ''
     },
     {
       id: 3,
-      name: 'Komerce'
+      name: 'Komerce',
+      link: 'https://komerce.id/'
     },
     {
       id: 4,
-      name: 'Blog'
+      name: 'Blog',
+      link: 'https://komerce.id/blog'
     }
   ],
   class: [

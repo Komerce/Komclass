@@ -18,7 +18,7 @@ const Footers = () => {
     <Footer>
       <LogoKomerce />
       <Row gutter={[64, 64]}>
-        <Col xxl={7} xl={7} lg={24} md={12} sm={24} xs={24}>
+        <Col xxl={7} xl={7} lg={7} md={12} sm={24} xs={24}>
           <Row className='footer-address'>
             <LocationIcon />
             <Title className='address' level={5}>{DataFooter.address}</Title>
@@ -39,7 +39,8 @@ const Footers = () => {
         <Col xxl={6} xl={6} lg={6} md={6} sm={6} xs={12} className="footer-menu">
           <Title level={5}>Company</Title>
           {DataFooter.menu.map((item: MenuList) => (
-            <Title className='footer-menu-text' level={5} key={item.id}>{item.name}</Title>
+            <Title className='footer-menu-text' level={5} key={item.id}>
+              <a href={item.link}>{item.name}</a></Title>
           ))}
         </Col>
         <Col xxl={6} xl={6} lg={6} md={6} sm={6} xs={12} className="footer-menu">

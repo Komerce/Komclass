@@ -49,9 +49,27 @@
         }
     }
 
-    @media screen and (min-width: 465px) and (max-width: 559px) {}
+    @media screen and (min-width: 465px) and (max-width: 559px) {
+        .title {
+            .ant-col {
+                h2 {
+                    margin-top: 20px !important;
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
 
-    @media screen and (min-width: 560px) and (max-width: 779px) {}
+    @media screen and (min-width: 560px) and (max-width: 779px) {
+        .title {
+            .ant-col {
+                h2 {
+                    margin-top: 20px !important;
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
 
     @media screen and (min-width: 780px) and (max-width: 1200px) {}
 }

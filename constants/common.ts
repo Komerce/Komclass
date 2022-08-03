@@ -3,6 +3,7 @@ import { ReactElement } from 'react';
 export interface MenuList {
   id: number;
   name: string;
+  link: string;
 }
 export interface ListIcon {
   id: number;

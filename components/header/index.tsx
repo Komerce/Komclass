@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { Button, Dropdown, Menu } from 'antd';
 import Drawer from 'antd/lib/drawer';
 import { MenuFoldOutlined } from '@ant-design/icons';
-import Link from 'next/link';
 import LogoIcon from 'assets/LogoIcon';
 
 const Header = () => {
@@ -24,8 +23,7 @@ const Header = () => {
         {
           key: '1',
           label: (
-            <a className='dropdown'
-            >
+            <a>
               Tiktok Ads
             </a>
           )
@@ -56,9 +54,9 @@ const Header = () => {
     <div className="header-container">
       <nav className="header-nav">
         <ul className="logo">
-          <Link href="/">
+          <a href="/">
             <LogoIcon />
-          </Link>
+          </a>
         </ul>
         <ul className="menu">
           <li>
@@ -91,8 +89,7 @@ const Header = () => {
               Blog
             </a>
           </li>
-        </ul>
-        <Button size="large" className="contact-me">
+          <Button size="large" className="contact-me">
           <a
             href="https://wa.me/6282331292258"
             target="_blank"
@@ -101,6 +98,7 @@ const Header = () => {
             Hubungi Kami
           </a>
         </Button>
+        </ul>
         <MenuFoldOutlined className="sidenav" onClick={showDrawer} />
         <Drawer
           placement="left"
@@ -108,7 +106,47 @@ const Header = () => {
           onClose={onClose}
           visible={state}
         >
-          {/* <NavMenu /> */}
+          <ul className="menu">
+          <li>
+            <a href="#review" className="active">
+              Mengapa Komclass
+            </a>
+          </li>
+          <li>
+              <Dropdown className="active" overlay={menu} placement="bottomLeft">
+                <a>Kelas</a>
+              </Dropdown>
+          </li>
+          <li>
+            <a
+              href="https://komerce.id/"
+              target="_blank"
+              rel="noreferrer"
+              className="active"
+            >
+              Komerce
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://komerce.id/blog"
+              target="_blank"
+              rel="noreferrer"
+              className="active"
+            >
+              Blog
+            </a>
+          </li>
+          <Button size="large" className="contact-me">
+          <a
+            href="https://wa.me/6282331292258"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hubungi Kami
+          </a>
+        </Button>
+        </ul>
         </Drawer>
       </nav>
     </div>
