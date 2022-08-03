@@ -38,5 +38,6 @@ jobs:
           server: ${{ secrets.host }}
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
+          port: 21
           local-dir: ./out/
           server-dir: ./dev-nuxt.komclass.id/
