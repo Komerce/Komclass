@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dist-folder
-          path: ./dist/
+          path: ./out/
   deploy:
     name: Deploy
     needs: build
@@ -31,12 +31,12 @@ jobs:
         uses: actions/download-artifact@v3
         with: 
           name: dist-folder
-          path: ./dist/
+          path: ./out/
       - name: Sync files to hosting
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with: 
           server: ${{ secrets.host }}
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-          local-dir: ./dist/
+          local-dir: ./out/
           server-dir: ./dev-nuxt.komclass.id/
