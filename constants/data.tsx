@@ -428,7 +428,7 @@ export const DataUmkm = [
   },
   {
     id: 8,
-    image: './images/umkm/Otomotifku.svg'
+    image: './images/umkm/OtomotifKu.svg'
   },
   {
     id: 9,
