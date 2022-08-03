@@ -16,7 +16,7 @@ const Hope = () => {
               </Title>
             </Col>
           </Row>
-          <Row justify='center'>
+          <Row gutter={[16, 16]} justify='center'>
             <Col xl={8} lg={10} md={10} sm={12} xs={24}>
               <List
                 itemLayout="horizontal"

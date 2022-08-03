@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Typography, List } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import WhatsAppOutlined from '@ant-design/icons/lib/icons/WhatsAppOutlined';
 
 const { Title } = Typography;

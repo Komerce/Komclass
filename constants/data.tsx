@@ -3,8 +3,6 @@ import AnalyticIcon from 'assets/Advertise/AnalyticIcon';
 import BoxIcon from 'assets/Advertise/BoxIcon';
 import ConvertIcon from 'assets/Advertise/ConvertIcon';
 import SettingsIcon from 'assets/Advertise/SettingsIcon';
-import Clock from 'assets/banner/Clock';
-import Location from 'assets/banner/location';
 import FacebookIcon from 'assets/FacebookIcon';
 import DollarIcon from 'assets/Hope/DollarIcon';
 import MarketupIcon from 'assets/Hope/MarketupIcon';
@@ -14,7 +12,6 @@ import SocialIcon from 'assets/Hope/SocialIcon';
 import StrategyIcon from 'assets/Hope/StrategyIcon';
 import InstagramIcon from 'assets/InstagramIcon';
 import LinkedInIcon from 'assets/LinkedInIcon';
-import AstraIcon from 'assets/Review/AstraIcon.svg';
 import TelegramIcon from 'assets/Telegram';
 import YoutubeIcon from 'assets/YoutubeIcon';
 
@@ -29,19 +26,23 @@ export const DataFooter = {
   menu: [
     {
       id: 1,
-      name: 'Mengapa Komclass'
+      name: 'Mengapa Komclass',
+      link: '#review'
     },
     {
       id: 2,
-      name: 'Kelas'
+      name: 'Kelas',
+      link: ''
     },
     {
       id: 3,
-      name: 'Komerce'
+      name: 'Komerce',
+      link: 'https://komerce.id/'
     },
     {
       id: 4,
-      name: 'Blog'
+      name: 'Blog',
+      link: 'https://komerce.id/blog'
     }
   ],
   class: [
@@ -122,36 +123,36 @@ export const DataSponsor = [
 export const DataBanner = [
   {
     id: 1,
-    img: './images/slide1.jpg',
+    img: './images/slide1.png',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
     id: 2,
-    img: './images/slide2.jpg',
+    img: './images/slide2.svg',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
     id: 3,
-    img: './images/slide3.jpg',
+    img: './images/slide3.svg',
     alt: 'Komerce Class',
     title:
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   }
 ];
 export const DataAdvertise = [
@@ -427,7 +428,7 @@ export const DataUmkm = [
   },
   {
     id: 8,
-    image: './images/umkm/Otomotifku.svg'
+    image: './images/umkm/OtomotifKu.svg'
   },
   {
     id: 9,

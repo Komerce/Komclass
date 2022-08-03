@@ -1,12 +1,15 @@
 .ant-layout-footer {
   background-color: $baseColor;
   padding: 2em 4em;
+
   .ant-row {
     margin-top: 1em;
+
     .footer-address {
       display: flex;
       align-items: center;
       margin-bottom: 1em;
+
       .address {
         margin-top: -25px;
         margin-left: 2em;
@@ -20,33 +23,49 @@
         margin-bottom: 0;
       }
     }
+
     .footer-menu {
       .ant-typography {
         color: $baseWhite;
         margin-top: 0;
       }
+
       h5 {
         font-weight: 600;
       }
+
+      a {
+        color: unset;
+        outline: none;
+        cursor: pointer;
+        transition: unset;
+        text-decoration: none;
+      }
+
       .footer-menu-text {
         font-weight: 500;
       }
+
       .ant-row {
         gap: 1em;
         margin-bottom: 10px;
       }
+
       .ant-card {
         border-radius: 4px;
+
         &-body {
           padding: 10px;
         }
       }
     }
   }
+
   .copyright {
     display: flex;
     justify-content: space-between;
     margin-top: 3em;
+
     h5 {
       color: $baseWhite;
       font-weight: 500;
@@ -57,14 +76,17 @@
 @media screen and(min-width: 320px) and (max-width: 768px) {
   .ant-layout-footer {
     padding: 24px 35px;
+
     .ant-row {
       row-gap: 24px !important;
+
       .footer-address {
         .address {
           margin-top: -50px;
         }
       }
     }
+
     .copyright {
       display: flow-root;
     }

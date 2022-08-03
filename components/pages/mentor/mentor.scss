@@ -44,11 +44,11 @@ padding: 10px;
                 margin-top: 20px;
 
                 h2 {
-                    font-size: 20px;
+                    font-size: 16px;
                 }
 
                 h4 {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
             }
         }
@@ -64,11 +64,12 @@ padding: 10px;
 
             h2 {
                 margin-top: 10px;
-                font-size: 20px;
+                font-size: 18px;
             }
 
             span {
-                font-size: 20px;
+                font-size: 16px;
+                padding: 2px;
             }
 
             p {
@@ -80,8 +81,12 @@ padding: 10px;
             }
 
             .content-title {
-                font-size: 14px;
+                font-size: 12px;
             }
+            .list-achievement {
+                font-size: 12px;
+            }
+            
         }
         .slider-review {
             display: none;
@@ -90,57 +95,73 @@ padding: 10px;
 
     @media screen and (min-width: 465px) and (max-width: 559px) {
         .title {
-            .ant-col {
+            .title-mentor {
+                margin-top: 20px;
+
                 h2 {
-                    font-size: 28px;
+                    font-size: 16px;
                 }
 
                 h4 {
-                    font-size: 18px;
-                }
-            }
-
-            .content-mentor {
-                .image-mentor {
-                    text-align: -webkit-center;
-
-                    img {
-                        width: 50%;
-                    }
-                }
-
-                h2 {
-                    margin-top: 10px;
-                    font-size: 24px;
-                }
-
-                span {
-                    font-size: 22px;
-                }
-
-                p {
-                    font-size: 14px;
-                }
-
-                h3 {
-                    font-size: 18px;
-                }
-
-                .content-title {
                     font-size: 14px;
                 }
             }
-            .slider-review {
-                display: none;
+        }
+
+        .content-mentor {
+            .image-mentor {
+                text-align: -webkit-center;
+
+                img {
+                    width: 50%;
+                }
             }
+
+            h2 {
+                margin-top: 10px;
+                font-size: 18px;
+            }
+
+            span {
+                font-size: 16px;
+                padding: 2px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .content-title {
+                font-size: 12px;
+            }
+            .list-achievement {
+                font-size: 12px;
+            }
+            
+        }
+        .slider-review {
+            display: none;
         }
     }
 
     @media screen and (min-width: 560px) and (max-width: 779px) {
         .title {
+            .title-mentor{
+                margin-top: 20px;
+                h2 {
+                    font-size: 18px;
+                }
+                h4 {
+                    font-size: 16px;
+                }
+            }
             .ant-col {
                 h2 {
-                    font-size: 28px;
+                    font-size: 26px;
                 }
 
                 h4 {
@@ -151,7 +172,6 @@ padding: 10px;
             .content-mentor {
                 .image-mentor {
                     text-align: -webkit-center;
-
                     img {
                         width: 100%;
                     }
@@ -159,23 +179,31 @@ padding: 10px;
 
                 h2 {
                     margin-top: 10px;
-                    font-size: 24px;
-                }
-
-                span {
-                    font-size: 22px;
-                }
-
-                p {
-                    font-size: 14px;
-                }
-
-                h3 {
                     font-size: 18px;
                 }
 
+                span {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                h3 {
+                    margin-top: 10px;
+                    font-size: 16px;
+                }
+
                 .content-title {
-                    font-size: 14px;
+                    font-size: 12px;
+                }
+                .list-achievement {
+                    
+                    font-size: 12px;
+                }
+                .ant-list-item {
+                    padding: 2px;
                 }
             }
         }
