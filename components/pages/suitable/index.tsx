@@ -17,7 +17,7 @@ const Suitable = () => {
           <Row justify='center'>
             {DataSuitable.map((item: DataHope) => (
               <Col key={item.id} xl={7} lg={7} md={7} sm={24} xs={24}>
-                <img src={item.image} alt={item.alt} />
+                <img src={item.image} alt="" />
                 <p className='desc'>{item.desc}</p>
               </Col>
             ))}

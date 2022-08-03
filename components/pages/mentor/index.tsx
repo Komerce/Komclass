@@ -45,7 +45,7 @@ const Mentor = () => {
                 renderItem={item => (
                   <List.Item>
                     <List.Item.Meta
-                      avatar={<img src={item.img} alt={item.name} />}
+                      avatar={<img src={item.img} alt="" />}
                       title={<div className='content-title'>{item.title}</div>}
                       description={<div>{item.desc}</div>}
                     />
