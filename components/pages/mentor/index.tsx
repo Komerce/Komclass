@@ -10,7 +10,7 @@ const Mentor = () => {
       <Row className="title" justify="center">
         <Col xl={24} xxl={24}>
           <Row className="title-mentor" justify="center">
-            <Col xl={17} lg={17} md={17} sm={24} xs={24}>
+            <Col xl={17} lg={17} md={24} sm={24} xs={24}>
               <Title level={2}>
                 Semua permasalahan performa iklanmu akan terjawab di kelas
                 Instagram dan Facebook Ads dari Komclass!
