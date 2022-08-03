@@ -130,7 +130,7 @@ export const DataBanner = [
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
     location: 'Hotel Horison Falatehan Jakarta Selatan',
-    time: 'Sabtu - Minggu (20-21) Agustus 2022'
+    time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
     id: 2,
