@@ -35,9 +35,9 @@ jobs:
       - name: Sync files to hosting
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with: 
-          server: ${{ secrets.host_prod }}
-          username: ${{ secrets.username_prod }}
-          password: ${{ secrets.password_prod }}
+          server: ftp.komclass.id
+          username: prod@komclass.id
+          password: prodkomclass
           port: 21
           local-dir: ./out/
           server-dir: ./
