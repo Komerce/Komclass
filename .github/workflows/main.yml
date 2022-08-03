@@ -1,7 +1,7 @@
 name: cd
 on:
   push:
-    branches: [ development ]
+    branches: [ production ]
   workflow_dispatch:
 
 jobs:
@@ -40,4 +40,4 @@ jobs:
           password: ${{ secrets.password }}
           port: 21
           local-dir: ./out/
-          server-dir: ./dev-nuxt.komclass.id/
+          server-dir: ./komclass.id/
