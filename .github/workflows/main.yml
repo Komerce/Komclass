@@ -40,4 +40,4 @@ jobs:
           password: ${{ secrets.password }}
           port: 21
           local-dir: ./out/
-          server-dir: ./komclass.id/
+          server-dir: ./admin/dev-nuxt.komclass.id/
