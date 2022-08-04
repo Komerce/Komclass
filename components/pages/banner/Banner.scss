@@ -115,6 +115,7 @@
 
   .text {
     position: sticky;
+    position: -webkit-sticky;
     bottom: 30%;
     left: 19%;
     justify-content: center;
