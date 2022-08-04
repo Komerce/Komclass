@@ -1,5 +1,4 @@
 .review {
-
     .title {
         text-align: center;
         margin-top: 100px;
@@ -26,10 +25,10 @@
             display: block;
             position: relative;
             padding: 20px;
-            border: 1px solid #C2C2C2;
+            border: 1px solid #c2c2c2;
             text-align: -webkit-center;
             border-radius: 16px;
-
+            min-height: 320px;
             .ant-row {
                 text-align: -webkit-center;
             }
@@ -154,5 +153,6 @@
         }
     }
 
-    @media screen and (min-width: 780px) and (max-width: 1200px) {}
+    @media screen and (min-width: 780px) and (max-width: 1200px) {
+    }
 }
