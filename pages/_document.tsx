@@ -6,6 +6,10 @@ export default class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta
+            name="facebook-domain-verification"
+            content="x43wtcwxz378u6zodv71fd2v1bqtn1"
+          />
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
