@@ -384,18 +384,11 @@ export const CarouselReview = [
   },
   {
     id: 3,
-    image: './images/review/zidane.png',
-    name: 'Antar Zidane',
-    address: 'Bumiayu, Brebes',
-    desc: 'Terdapat banyak sekali manfaat yang saya dapatkan setelah Belajar di kelas facebook ads Komclass dari Komerce, mulai dari prihal teori bisnis dan digital marketing, praktiknya dan bahkan filosofi. Acara ini sangat membuka pikiran saya dalam berbisnis. Saya pasti akan kembali kesana apabila terdapat pelatihan baru'
+    image: './images/review/lambang.png',
+    name: 'Lambang Wicaksono',
+    address: 'Sawahlunto',
+    desc: 'Tidak sia-sia saya datang jauh-jauh dari Sumatra. Setelah mengikuti Bootcamp Ilmu yang saya dapatkan jauh lebih berharga dibandingkan dengan biaya yang saya keluarkan. Saya juga mendapat banyak inspirasi untuk bisnis melalui kegiatan ini'
   },
-  {
-    id: 4,
-    image: './images/review/agung.png',
-    name: 'Agung Toretto',
-    address: 'Semarang',
-    desc: 'Pengalaman ikut kelas facebook ads sangat bagus dan menyenangkan. Kegiatannya juga ok banget. Mungkin saran ditambahkan adanya layanan pendampingan untuk peserta diluar jam belajar agar lebih matang pembelajarannya. Thanks buat tim Komclass dari Komerce, rasanya ingin ikut lagi'
-  }
 ];
 export const DataUmkm = [
   {

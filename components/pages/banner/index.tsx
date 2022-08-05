@@ -17,8 +17,8 @@ const Banner = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -82,7 +82,7 @@ const Banner = () => {
                 </Title>
                 <div className="button-wrapper">
                   <button className="button">
-                    <a href="https://wa.me/6282331292258" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/6282331292258" target="_blank" rel="noopener noreferrer">
                       <WhatsAppOutlined style={{ fontSize: '18px' }} />
                       <span style={{marginLeft: '5px'}}>Daftar Sekarang</span>
                     </a>

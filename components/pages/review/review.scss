@@ -1,5 +1,4 @@
 .review {
-
     .title {
         text-align: center;
         margin-top: 100px;
@@ -26,10 +25,10 @@
             display: block;
             position: relative;
             padding: 20px;
-            border: 1px solid #C2C2C2;
+            border: 1px solid #c2c2c2;
             text-align: -webkit-center;
             border-radius: 16px;
-
+            min-height: 400px;
             .ant-row {
                 text-align: -webkit-center;
             }
@@ -66,19 +65,21 @@
             }
 
             .reviewcarousel {
+                min-height: 320px;
                 h4 {
                     font-size: 16px;
                 }
 
                 .desc {
-                    font-size: 14px;
+                    font-size: 13px;
+                    text-align: -webkit-center;
                 }
             }
         }
 
         .slick-prev:before,
         .slick-next:before {
-            font-size: 30px !important;
+            display: none;
         }
 
         .slick-list {
@@ -98,10 +99,10 @@
                 font-size: 18px;
                 margin-bottom: 20px;
             }
-
             .reviewcarousel {
+                min-height: 360px;
                 h4 {
-                    font-size: 16px;
+                    font-size: 15px;
                 }
 
                 .desc {
@@ -112,7 +113,7 @@
 
         .slick-prev:before,
         .slick-next:before {
-            font-size: 30px !important;
+            display: none;
         }
 
         .slick-list {
@@ -132,8 +133,9 @@
                 font-size: 20px;
                 margin-bottom: 20px;
             }
-
+ 
             .reviewcarousel {
+                min-height: 330px;
                 h4 {
                     font-size: 16px;
                 }
@@ -154,5 +156,6 @@
         }
     }
 
-    @media screen and (min-width: 780px) and (max-width: 1200px) {}
+    @media screen and (min-width: 780px) and (max-width: 1200px) {
+    }
 }
