@@ -18,7 +18,7 @@ import YoutubeIcon from 'assets/YoutubeIcon';
 export const DataFooter = {
   address:
     'Head Office Komerce Jln. Sawah Tengah No. 3 Desa Tunjungmuli Kecamatan Karangmoncol Kabupaten Purbalingga (53355)',
-  phone_number: '+62 813 6064 6002',
+  phone_number: '+62 823 3129 2258',
   email: 'contact@komerce.id',
   toc: 'Terms and Conditions',
   privacy: 'Privacy Policy',
@@ -52,11 +52,11 @@ export const DataFooter = {
     },
     {
       id: 2,
-      name: 'Instagram Ads'
+      name: 'Ig & Fb Ads'
     },
     {
       id: 3,
-      name: 'Facebook Ads'
+      name: 'Google Ads'
     }
   ]
 };
