@@ -17,8 +17,8 @@ const Banner = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
