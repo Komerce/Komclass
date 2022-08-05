@@ -13,7 +13,8 @@ const Review = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplaySpeed: 600,
+    autoplaySpeed: 2000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -51,7 +52,8 @@ const Review = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrow: false,
         }
       }
     ]
