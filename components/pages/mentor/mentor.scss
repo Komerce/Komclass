@@ -1,7 +1,7 @@
 .mentor {
 padding: 10px;
     .title-mentor {
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
 
         h4 {
@@ -88,9 +88,6 @@ padding: 10px;
             }
             
         }
-        .slider-review {
-            display: none;
-        }
     }
 
     @media screen and (min-width: 465px) and (max-width: 559px) {
@@ -142,9 +139,6 @@ padding: 10px;
                 font-size: 12px;
             }
             
-        }
-        .slider-review {
-            display: none;
         }
     }
 

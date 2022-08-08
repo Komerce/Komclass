@@ -1,20 +1,18 @@
-import LayoutPage from 'components/layout';
-import { Advertise, Banner, Hope, Learn, Mentor, Price, Review, Sponsor, Suitable } from 'components/pages';
-import SEO from './seo';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+import WsMeta from './ws-meta';
 
-const Home = () => (
-  <LayoutPage>
-    <SEO />
-    <Banner />
-    <Advertise />
-    <Mentor />
-    <Learn />
-    <Hope />
-    <Suitable />
-    <Price />
-    <Review />
-    <Sponsor />
-  </LayoutPage>
-);
+const Home = () => {
+  const router = useRouter()
+  useEffect(() => {
+    if (router.pathname === '/') {
+      router.replace('/ws-meta')
+    }
+  }, [])
+
+  return (
+    <WsMeta />
+  );
+}
 
 export default Home;

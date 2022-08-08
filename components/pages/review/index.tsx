@@ -13,7 +13,7 @@ const Review = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     autoplay: true,
     responsive: [
       {
@@ -60,7 +60,13 @@ const Review = () => {
   };
   return (
     <section id="review" className="review">
-      <Row className="title" justify="center">
+      <Row
+        className="title"
+        justify="center"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="2000"
+      >
         <Col span={24}>
           <Row justify="center">
             <Title level={2}>Apa Kata Mereka?</Title>
@@ -73,7 +79,15 @@ const Review = () => {
           <SliderReview setting={settingSlider}>
             {CarouselReview.map((item: DataReview) => (
               <Row className="slider-review" justify="center">
-                <Col className="reviewcarousel" key={item.id} xl={18} lg={18} md={19} sm={20} xs={20}>
+                <Col
+                  className="reviewcarousel"
+                  key={item.id}
+                  xl={18}
+                  lg={18}
+                  md={19}
+                  sm={20}
+                  xs={20}
+                >
                   <img src={item.image} alt="" />
                   <Title className="title-content" level={4}>
                     {item.name} - {item.address}
