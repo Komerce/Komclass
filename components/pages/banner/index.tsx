@@ -66,33 +66,39 @@ const Banner = () => {
     <section id="banner" className="banner">
       <SliderComponent setting={settingSlider}>
         {DataBanner.map((item: ListBanner) => (
-          <Row key={item.id}>
+          <Row data-aos="fade-up" data-aos-duration="3000" key={item.id}>
             <Col xl={24} xxl={24}>
-            <img src={item.img} alt={item.alt} />
-            <Row className="text">
-              <Col xxl={24} xl={17} lg={17} md={17} sm={17} xs={24}>
-                <Title level={1}>{item.title}</Title>
-                <Title className="content" level={5}>
-                  <img className="icon" src={item.iconLocation} alt="" />
-                  Lokasi :{item.location}
-                </Title>
-                <Title level={5}>
-                  <img className="icon" src={item.iconClock} alt="" />
-                  Waktu :{item.time}
-                </Title>
-                <div className="button-wrapper">
-                  <button className="button">
-                    <a href="https://wa.me/6282331292258" target="_blank" rel="noopener noreferrer">
-                      <WhatsAppOutlined style={{ fontSize: '18px' }} />
-                      <span style={{marginLeft: '5px'}}>Daftar Sekarang</span>
+              <img src={item.img} alt={item.alt} />
+              <Row className="text">
+                <Col xxl={24} xl={17} lg={17} md={17} sm={17} xs={24}>
+                  <Title level={1}>{item.title}</Title>
+                  <Title className="content" level={5}>
+                    <img className="icon" src={item.iconLocation} alt="" />
+                    Lokasi :{item.location}
+                  </Title>
+                  <Title level={5}>
+                    <img className="icon" src={item.iconClock} alt="" />
+                    Waktu :{item.time}
+                  </Title>
+                  <div className="button-wrapper">
+                    <button className="button">
+                      <a
+                        href="https://wa.me/+6282331292258?text=Hai%20Komclass%2C%20saya%20ingin%20mendaftar%20kelas%20Instagram%20%26%20Facebook%20Ads%3F%0ABoleh%20dibantu%3F"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <WhatsAppOutlined style={{ fontSize: '18px' }} />
+                        <span style={{ marginLeft: '5px' }}>
+                          Daftar Sekarang
+                        </span>
+                      </a>
+                    </button>
+                    <a href="#advertise">
+                      <span className="info">Info lebih lanjut</span>
                     </a>
-                  </button>
-                  <a href="#advertise">
-                  <span className="info">Info lebih lanjut</span>
-                  </a>
-                </div>
-              </Col>
-            </Row>
+                  </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
         ))}

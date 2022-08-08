@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/link-passhref */
-/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import { Button, Dropdown, Menu } from 'antd';
 import Drawer from 'antd/lib/drawer';
@@ -65,15 +63,15 @@ const Header = () => {
             </a>
           </li>
           <li>
-              <Dropdown className="active" overlay={menu} placement="bottomLeft">
-                <a>Kelas</a>
-              </Dropdown>
+            <Dropdown className="active" overlay={menu} placement="bottomLeft">
+              <a>Kelas</a>
+            </Dropdown>
           </li>
           <li>
             <a
               href="https://komerce.id/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="active"
             >
               Komerce
@@ -83,21 +81,21 @@ const Header = () => {
             <a
               href="https://komerce.id/blog"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="active"
             >
               Blog
             </a>
           </li>
           <Button size="large" className="contact-me">
-          <a
-            href="https://wa.me/6282331292258"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Hubungi Kami
-          </a>
-        </Button>
+            <a
+              href="https://wa.me/+6282331292258?text=Hai%20Komclass%2C%20saya%20ingin%20mendaftar%20kelas%20Instagram%20%26%20Facebook%20Ads%3F%0ABoleh%20dibantu%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hubungi Kami
+            </a>
+          </Button>
         </ul>
         <MenuFoldOutlined className="sidenav" onClick={showDrawer} />
         <Drawer
@@ -107,46 +105,50 @@ const Header = () => {
           visible={state}
         >
           <ul className="menu">
-          <li>
-            <a href="#review" className="active">
-              Mengapa Komclass
-            </a>
-          </li>
-          <li>
-              <Dropdown className="active" overlay={menu} placement="bottomLeft">
+            <li>
+              <a href="#review" className="active">
+                Mengapa Komclass
+              </a>
+            </li>
+            <li>
+              <Dropdown
+                className="active"
+                overlay={menu}
+                placement="bottomLeft"
+              >
                 <a>Kelas</a>
               </Dropdown>
-          </li>
-          <li>
-            <a
-              href="https://komerce.id/"
-              target="_blank"
-              rel="noreferrer"
-              className="active"
-            >
-              Komerce
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://komerce.id/blog"
-              target="_blank"
-              rel="noreferrer"
-              className="active"
-            >
-              Blog
-            </a>
-          </li>
-          <Button size="large" className="contact-me">
-          <a
-            href="https://wa.me/6282331292258"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Hubungi Kami
-          </a>
-        </Button>
-        </ul>
+            </li>
+            <li>
+              <a
+                href="https://komerce.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="active"
+              >
+                Komerce
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://komerce.id/blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="active"
+              >
+                Blog
+              </a>
+            </li>
+            <Button size="large" className="contact-me">
+              <a
+                href="https://wa.me/+6282331292258?text=Hai%20Komclass%2C%20saya%20ingin%20mendaftar%20kelas%20Instagram%20%26%20Facebook%20Ads%3F%0ABoleh%20dibantu%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hubungi Kami
+              </a>
+            </Button>
+          </ul>
         </Drawer>
       </nav>
     </div>
