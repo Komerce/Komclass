@@ -4,8 +4,6 @@ import { useRouter } from 'next/router';
 import 'styles/index.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 function Application({ Component, pageProps }) {
@@ -35,10 +33,6 @@ function Application({ Component, pageProps }) {
         })
       })
   }, [router.events]);
-
-  useEffect(() => {
-    AOS.init({ once: true });
-  }, []);
   
   return (
     <Component {...pageProps} />
