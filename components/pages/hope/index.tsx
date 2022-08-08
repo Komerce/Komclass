@@ -5,7 +5,12 @@ import { DataHopeLeft, DataHopeRight } from 'constants/data';
 const { Title } = Typography;
 const Hope = () => {
   return (
-    <section id="hope" className="hope">
+    <section
+      id="hope"
+      className="hope"
+      data-aos="zoom-in"
+      data-aos-duration="3000"
+    >
       <Row className="title" justify="center">
         <Col xl={24} xxl={24}>
           <Row justify="center">
@@ -16,7 +21,7 @@ const Hope = () => {
               </Title>
             </Col>
           </Row>
-          <Row gutter={[16, 16]} justify='center'>
+          <Row gutter={[16, 16]} justify="center">
             <Col xl={8} lg={10} md={10} sm={12} xs={24}>
               <List
                 itemLayout="horizontal"
@@ -25,7 +30,7 @@ const Hope = () => {
                   <List.Item className="desc">
                     <List.Item.Meta
                       avatar={item.image}
-                      title={<div className='content'>{item.desc}</div>}
+                      title={<div className="content">{item.desc}</div>}
                     />
                   </List.Item>
                 )}
@@ -39,7 +44,7 @@ const Hope = () => {
                   <List.Item className="desc">
                     <List.Item.Meta
                       avatar={item.image}
-                      title={<div className='content'>{item.desc}</div>}
+                      title={<div className="content">{item.desc}</div>}
                     />
                   </List.Item>
                 )}

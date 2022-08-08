@@ -1,9 +1,8 @@
-/* eslint-disable react/jsx-key */
 import React from 'react';
 import { Col, Row, Typography, Card } from 'antd';
 import { DataMentorReviewMentor } from 'constants/data';
 import { DataReviewMentor } from 'constants/common';
-import SliderComponent from '../banner/SliderComponent';
+import SliderMentor from './SliderMentor';
 
 const { Title } = Typography;
 
@@ -11,7 +10,7 @@ const ReviewMentor = () => {
   const settingSlider = {
     dots: true,
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
@@ -21,7 +20,7 @@ const ReviewMentor = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 4,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -29,7 +28,7 @@ const ReviewMentor = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -37,7 +36,7 @@ const ReviewMentor = () => {
       {
         breakpoint: 750,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -45,7 +44,7 @@ const ReviewMentor = () => {
       {
         breakpoint: 720,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
@@ -60,20 +59,23 @@ const ReviewMentor = () => {
     ]
   };
   return (
-    <section id="ReviewMentor" className="ReviewMentor">
+    <section
+      data-aos="fade-left"
+      data-aos-duration="3000"
+      id="ReviewMentor"
+      className="ReviewMentor"
+    >
       <div className="site-card-wrapper">
         <Title level={2}>Review Mentor</Title>
-        <Row>
-        {DataMentorReviewMentor.map((item: DataReviewMentor) => (
-            <Col xl={6} lg={6} md={6} sm={12} xs={12} span={12}>
-              <Card className='card' key={item.id} bordered={true}>
-                <Title level={3}>{item.name}</Title>
-                <img src="./images/mentor/Star-group.svg" alt="star group" />
-                <div className="desc">{item.desc}</div>
-              </Card>
-            </Col>
+        <SliderMentor setting={settingSlider}>
+          {DataMentorReviewMentor.map((item: DataReviewMentor) => (
+            <Card key={item.id} className="card" bordered={true}>
+              <Title level={3}>{item.name}</Title>
+              <img src="./images/mentor/Star-group.svg" alt="star group" />
+              <div className="desc">{item.desc}</div>
+            </Card>
           ))}
-        </Row>
+        </SliderMentor>
       </div>
     </section>
   );
