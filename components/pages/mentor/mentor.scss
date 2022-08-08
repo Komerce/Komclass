@@ -1,5 +1,12 @@
+.react-reveal {
+    @keyframes react-reveal {
+        0% {
+            transform: unset !important;
+        }
+    }
+}
 .mentor {
-padding: 10px;
+    padding: 10px;
     .title-mentor {
         margin-top: 50px;
         text-align: center;
@@ -86,7 +93,6 @@ padding: 10px;
             .list-achievement {
                 font-size: 12px;
             }
-            
         }
     }
 
@@ -138,13 +144,12 @@ padding: 10px;
             .list-achievement {
                 font-size: 12px;
             }
-            
         }
     }
 
     @media screen and (min-width: 560px) and (max-width: 779px) {
         .title {
-            .title-mentor{
+            .title-mentor {
                 margin-top: 20px;
                 h2 {
                     font-size: 18px;
@@ -193,7 +198,6 @@ padding: 10px;
                     font-size: 12px;
                 }
                 .list-achievement {
-                    
                     font-size: 12px;
                 }
                 .ant-list-item {

@@ -5,6 +5,12 @@ $baseSecondColor: var(--base-second-color);
 $baseGrey: var(--base-grey);
 $baseRed: var(--base-red);
 
+@keyframes react-reveal {
+  0% {
+    transform: unset !important;
+  }
+}
+
 html,
 :root {
   --font-color: #333333;
