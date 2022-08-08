@@ -13,7 +13,16 @@ const Learn = () => {
         <Col xl={24} xxl={24}>
           <Title level={2}>Apa yang akan kamu pelajari di Kelas</Title>
           <Row justify="center">
-            <Col className="card" xl={9} lg={10} md={10} sm={10} xs={24}>
+            <Col
+              className="card"
+              xl={9}
+              lg={10}
+              md={10}
+              sm={10}
+              xs={24}
+              data-aos="flip-right"
+              data-aos-duration="3000"
+            >
               <Title level={3}>Hari ke - 1</Title>
               {DataPriceLeft.map((item: DataPrice) => (
                 <ul className="desc" key={item.id}>
@@ -22,7 +31,16 @@ const Learn = () => {
                 </ul>
               ))}
             </Col>
-            <Col className="card" xl={9} lg={10} md={10} sm={10} xs={24}>
+            <Col
+              className="card"
+              xl={9}
+              lg={10}
+              md={10}
+              sm={10}
+              xs={24}
+              data-aos="flip-left"
+              data-aos-duration="3000"
+            >
               <Title level={3}>Hari ke - 2</Title>
               {DataPriceRight.map((item: DataPrice) => (
                 <ul className="desc" key={item.id}>

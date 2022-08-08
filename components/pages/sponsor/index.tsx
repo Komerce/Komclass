@@ -7,7 +7,12 @@ import { ItemSponsor } from 'constants/common';
 const { Title } = Typography;
 const Sponsor = () => {
   return (
-    <section id="sponsor" className="sponsor">
+    <section
+      id="sponsor"
+      className="sponsor"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <Row className="title" justify="center">
         <Col span={24}>
           <Row className="content" justify="center">
