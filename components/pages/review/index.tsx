@@ -63,9 +63,6 @@ const Review = () => {
       <Row
         className="title"
         justify="center"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center"
-        data-aos-duration="2000"
       >
         <Col span={24}>
           <Row justify="center">
