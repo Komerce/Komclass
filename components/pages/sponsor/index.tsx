@@ -10,8 +10,6 @@ const Sponsor = () => {
     <section
       id="sponsor"
       className="sponsor"
-      data-aos="fade-up"
-      data-aos-duration="3000"
     >
       <Row className="title" justify="center">
         <Col span={24}>
