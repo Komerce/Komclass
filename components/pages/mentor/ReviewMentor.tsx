@@ -60,8 +60,6 @@ const ReviewMentor = () => {
   };
   return (
     <section
-      data-aos="fade-left"
-      data-aos-duration="3000"
       id="ReviewMentor"
       className="ReviewMentor"
     >

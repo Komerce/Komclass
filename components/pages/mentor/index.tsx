@@ -65,7 +65,6 @@ const Mentor = () => {
               <Title
                 level={2}
                 data-aos="fade-up-right"
-                data-aos-duration="3000"
               >
                 Semua permasalahan performa iklanmu akan terjawab di kelas
                 Instagram dan Facebook Ads dari Komclass!
@@ -80,9 +79,8 @@ const Mentor = () => {
             justify="center"
             className="content-mentor"
             data-aos="fade-up"
-            data-aos-duration="3000"
           >
-            <Col
+            <Col className='image-mentor'
               xl={10}
               md={13}
               sm={22}
