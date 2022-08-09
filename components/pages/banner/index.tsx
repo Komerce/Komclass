@@ -74,11 +74,11 @@ const Banner = () => {
                     <Title level={1}>{item.title}</Title>
                     <Title className="content" level={5}>
                       <img className="icon" src={item.iconLocation} alt="" />
-                      Lokasi :{item.location}
+                      Lokasi : {item.location}
                     </Title>
                     <Title level={5}>
                       <img className="icon" src={item.iconClock} alt="" />
-                      Waktu :{item.time}
+                      Waktu : {item.time}
                     </Title>
                     <div className="button-wrapper">
                       <button className="button">
