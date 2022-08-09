@@ -129,7 +129,7 @@ export const DataBanner = [
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
-    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    location: 'Hotel NEO Tendean Jakarta Selatan',
     time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
@@ -140,7 +140,7 @@ export const DataBanner = [
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
-    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    location: 'Hotel NEO Tendean Jakarta Selatan',
     time: 'Sabtu - Minggu (27-28) Agustus 2022'
   },
   {
@@ -151,7 +151,7 @@ export const DataBanner = [
       'Tingkatkan Performa Jualan Onlinemu Dengan Mengikuti Kelas Instagram dan Facebook Ads',
     iconLocation: './images/banner/location.png',
     iconClock: './images/banner/clock.png',
-    location: 'Hotel Horison Falatehan Jakarta Selatan',
+    location: 'Hotel NEO Tendean Jakarta Selatan',
     time: 'Sabtu - Minggu (27-28) Agustus 2022'
   }
 ];
@@ -388,7 +388,7 @@ export const CarouselReview = [
     name: 'Lambang Wicaksono',
     address: 'Sawahlunto',
     desc: 'Tidak sia-sia saya datang jauh-jauh dari Sumatra. Setelah mengikuti Bootcamp Ilmu yang saya dapatkan jauh lebih berharga dibandingkan dengan biaya yang saya keluarkan. Saya juga mendapat banyak inspirasi untuk bisnis melalui kegiatan ini'
-  },
+  }
 ];
 export const DataUmkm = [
   {
